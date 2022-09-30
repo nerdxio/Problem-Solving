@@ -4,10 +4,10 @@ public class ReverseLinkedList {
     public static void main(String[] args) {
 
     }
-    public ListNode reverseList(ListNode head){
-        ListNode current = head;
-        ListNode pervious = null;
-        ListNode temp = null;
+    public ListNode3 reverseList(ListNode3 head){
+        ListNode3 current = head;
+        ListNode3 pervious = null;
+        ListNode3 temp = null;
 
         while(current != null){
             temp = current.next;
@@ -20,8 +20,8 @@ public class ReverseLinkedList {
 }
 class ListNode {
     int val;
-    ListNode next;
+    ListNode3 next;
     ListNode() {}
     ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    ListNode(int val, ListNode3 next) { this.val = val; this.next = next; }
 }
