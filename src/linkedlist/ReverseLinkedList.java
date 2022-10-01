@@ -7,13 +7,13 @@ public class ReverseLinkedList {
     public ListNode3 reverseList(ListNode3 head){
         ListNode3 current = head;
         ListNode3 pervious = null;
-        ListNode3 temp = null;
+        ListNode3 next = null;
 
         while(current != null){
-            temp = current.next;
+            next = current.next;
             current.next =pervious;
             pervious = current;
-            current = temp;
+            current = next;
         }
         return pervious;
     }
