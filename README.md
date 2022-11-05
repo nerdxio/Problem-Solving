@@ -7,3 +7,5 @@ i solved
 > - Stack
 > - Queeu
 > - Linked List
+> - tree
+
